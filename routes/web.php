@@ -14,6 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::view('/places', 'app');
+Route::view('/place/create', 'app');
 Route::view('/place/{id}', 'app');
 Route::view('/place/edit/{id}', 'app');
 
